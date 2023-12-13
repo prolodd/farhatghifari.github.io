@@ -31,10 +31,3 @@ Bela Negara juga mencakup kesiapan dalam menghadapi berbagai ancaman, baik dari 
 Semangat Bela Negara membangun fondasi solidaritas dan kebersamaan di antara warga negara. Dalam menghadapi tantangan dan permasalahan bersama, solidaritas menjadi kekuatan utama dalam mencapai kesejahteraan dan keadilan. Oleh karena itu, Bela Negara tidak hanya tentang fisik, melainkan juga tentang memupuk rasa persatuan yang kuat.
 
 Dalam kesimpulannya, Bela Negara adalah sebuah konsep yang melibatkan seluruh komponen masyarakat untuk berpartisipasi aktif dalam menjaga keutuhan dan kedaulatan bangsa. Dengan semangat Bela Negara, Indonesia dapat terus menjadi negara yang maju, berdaulat, dan sejahtera. Setiap warga negara memiliki peran penting dalam membangun masa depan yang lebih baik bagi generasi mendatang.
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
