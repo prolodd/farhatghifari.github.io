@@ -1,16 +1,14 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
-excerpt: "Bela Negara: Tanggung Jawab Bersama Membangun Keutuhan Bangsa"
+title: "Bela Negara: Tanggung Jawab Bersama Membangun Keutuhan Bangsa"
+excerpt:
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
-
-ndonesia, sebagai negara yang kaya akan keanekaragaman budaya dan alamnya, memiliki tanggung jawab untuk menjaga keutuhan dan kedaulatan bangsa. Salah satu konsep yang mendasari semangat tersebut adalah Bela Negara. Bela Negara bukan sekadar slogan, tetapi sebuah panggilan jiwa yang mengajak setiap warga negara untuk turut serta dalam menjaga keamanan dan keutuhan bangsa. Dalam konteks ini, Bela Negara bukan hanya menjadi tugas militer semata, melainkan suatu sikap dan tindakan konkret yang diemban oleh seluruh elemen masyarakat.
+Indonesia, sebagai negara yang kaya akan keanekaragaman budaya dan alamnya, memiliki tanggung jawab untuk menjaga keutuhan dan kedaulatan bangsa. Salah satu konsep yang mendasari semangat tersebut adalah Bela Negara. Bela Negara bukan sekadar slogan, tetapi sebuah panggilan jiwa yang mengajak setiap warga negara untuk turut serta dalam menjaga keamanan dan keutuhan bangsa. Dalam konteks ini, Bela Negara bukan hanya menjadi tugas militer semata, melainkan suatu sikap dan tindakan konkret yang diemban oleh seluruh elemen masyarakat.
 
 **1. Semangat Bela Negara sebagai Panggilan Jiwa
 
