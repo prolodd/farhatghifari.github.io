@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/e70474fa77.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <h1>Portfolio</h1>
+
+    <nav class="navbar">
+        <a class="nav-link" href="#Section1">Home</a>
+        <a class="nav-link" href="#Section2">Summary</a>
+        <a class="nav-link" href="#Section3">Education</a>
+        <a class="nav-link" href="#Section4">Skills</a>
+    </nav>
+
+    <div id= "Section1" class="firstSection">
+        <h4>Hi,</h4>
+        <p class="name-first">I'm <span class="highlight">Ibad</span></p>
+        <p class="job-first">Web Developer</p>
+        <img class = "pfp" src="pfp.jpeg">
+
+        <button type="button" id="button1">
+            Contact
+        </button>
+        <div class = "Contact">
+            <p><i class="fa-solid fa-phone"></i> +6281331323754</p>
+            <p><i class="fa-solid fa-envelope"></i> 22081010290@student.ac.id</p>
+        </div>
+
+
+        <div class="github">
+            <a href="https://github.com/prolodd">
+                <i class="fa-brands fa-github fa-5x"></i>
+            </a>
+        </div>
+
+
+
+    </div>
+
+    <div id= "Section2" class="secondSection">
+        <h4>Summary</h4>
+        <div class="paragraphs2">
+            <p>As a dynamic and motivated web programmer, I am driven by a fervent passion for crafting innovative and user-centric web solutions that elevate user experiences and meet diverse needs. With a solid foundation in web programming languages including HTML, CSS, and PHP, I possess the expertise to translate ideas into functional and aesthetically pleasing websites.</p>
+        
+            <p>My dedication to continuous learning is evident in my commitment to staying abreast of the latest advancements and trends in web development. I thrive on challenges and am constantly seeking opportunities to expand my skill set and explore emerging technologies that enhance the development process and push the boundaries of what is possible on the web.</p>
+            
+            <p>With a keen eye for detail and a penchant for problem-solving, I approach each project with enthusiasm and a determination to deliver high-quality results. Whether it's optimizing website performance, implementing responsive design principles, or integrating cutting-edge features, I am adept at leveraging my technical prowess to drive the development of dynamic and impactful web applications.</p>
+            
+            <p>I am now eagerly seeking new opportunities to apply my skills and expertise towards the creation of cutting-edge web solutions that not only meet but exceed the expectations of clients and users alike. With a collaborative mindset and a drive for excellence, I am confident in my ability to contribute positively to any team or project and to play a pivotal role in shaping the future of web development.</p>
+        </div>
+        
+    </div>
+
+    <div id= "Section3" class="thirdSection">
+        <h4>Education</h4>
+
+        <div>
+            <img class="upn" src="logoupn.png">
+            <p class="upntext">2022 - present, UPN “Veteran” Jawa Timur, pursuing undergraduate degree in computer science.</p>
+
+            <img class="alirsyad" src="logoalirsyad.png">
+            <p class = "alirsyadtext">2019 - 2022, SMA Al Irsyad Surabaya, focusing on science subjects.</p>
+
+            <img class="piat2" src="logopiat2.png">
+            <p class = "piat2text">2017 - 2019, Pesantren Islam Al Irsyad Tengaran 2 Majalengka</p>
+        </div>
+    </div>
+
+    <div id= "Section4" class="fourthSection">
+        <h4>Skills</h4>
+
+        <div class="box1">
+            <p class="box1text">Web Development Languages<p>
+            <img class= "html" src="html.png">
+            <img class= "css" src="css.png">
+            <img class= "php" src="php.png">
+        </div>
+
+        <div class="box2">
+            <p class="box2text">Programming Languages<p>
+            <img class= "python" src="python.png">
+            <img class= "cpp" src="c++.png">
+        </div>
+
+        <div class="box3">
+            <p class="box3text">Human Languages<p>
+            <p class="english">English<p>
+            <p class="indonesian">Bahasa Indonesia<p>
+            <p class="arabic">Arabic<p>
+            
+
+        </div>
+
+    </div>
+
+
+    <script>
+        $('.Contact').hide();
+
+        $('#button1').click(function(){
+            $('.Contact').fadeToggle(1500);
+        })
+
+        $(document).ready(function() {
+            $('.navbar a').click(function() {
+                var sectionId = $(this).attr('href');
+                $('html, body').animate({
+                    scrollTop: $(sectionId).offset().top
+                }, 'slow');
+            });
+        });
+    </script>
+
+    
+</body>
+</html>

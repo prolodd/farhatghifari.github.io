@@ -1,0 +1,310 @@
+.firstSection {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(38, 37, 37);
+    height: 100vh; 
+    color:white;
+
+}
+
+.firstSection h4{
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 20%;
+    font-size: 62px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.name-first{
+    position:absolute;
+    margin-left: 30%;
+    margin-top: 24%;
+    font-size: 42px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.highlight{
+    color: red;
+}
+
+.job-first{
+    position:absolute;
+    margin-left: 30%;
+    margin-top: 27%;
+    font-size: 42px;
+    font-family: Consolas;
+    font-weight: bold;
+
+}
+
+.pfp {
+    position:absolute;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 60%;
+    margin-top : 10%;
+}
+
+#button1{
+    position: absolute;
+    margin-top: 31%;
+    margin-left: 30%;
+    width: 170px;
+    height: 40px;
+    background-color: red;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: Consolas;
+    font-weight: bold;
+    color: white;
+}
+
+.Contact{
+    position:absolute;
+    width: 300px;
+    height: auto;
+    margin-top: 35%;
+    margin-left:30%;
+    background-color: rgb(48, 47, 47);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.github{
+    position:absolute;
+    margin-top: 45%;
+    margin-left: 15%;
+}
+
+.secondSection {
+    position: absolute;
+    top: 100vh; 
+    left: 0;
+    right: 0;
+    background-color: rgb(48, 47, 47);
+    height: 100vh; 
+    color: white;
+}
+
+.secondSection h4{
+    position: absolute;
+    font-size: 42px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.paragraphs2 {
+    font-size: 16px;
+    font-family: Consolas;
+    margin-top: 10%;
+    line-height: 1.6;
+    padding: 30px;
+    margin-left: 8%;
+    text-align: justify;
+}
+
+.thirdSection {
+    position: absolute;
+    top: 200vh; 
+    left: 0;
+    right: 0;
+    background-color: rgb(38, 37, 37);
+    height: 100vh; 
+    color: white;
+}
+
+.thirdSection h4{
+    position: absolute;
+    font-size: 42px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.upn{
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.upntext{
+    position: absolute;
+    font-size: 18px;
+    margin-top: 13%;
+    margin-left: 15%;
+    font-family: Consolas;
+}
+
+.alirsyad{
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.alirsyadtext{
+    position: absolute;
+    font-size: 18px;
+    margin-top: 23%;
+    margin-left: 15%;
+    font-family: Consolas;
+}
+
+.piat2{
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    margin-top: 30%;
+    margin-left: 5%;
+}
+
+.piat2text{
+    position: absolute;
+    font-size: 18px;
+    margin-top: 33%;
+    margin-left: 15%;
+    font-family: Consolas;
+}
+
+
+.fourthSection {
+    position: absolute;
+    top: 300vh; 
+    left: 0;
+    right: 0;
+    background-color: rgb(48, 47, 47);
+    height: 100vh; 
+    color: white;
+}
+
+.fourthSection h4{
+    position: absolute;
+    font-size: 42px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.box1, .box2, .box3 {
+    position: absolute;
+    width: calc(33.33% - 20px); 
+    height: 75vh;
+    margin-top: 10%;
+}
+
+.box1 {
+    left: 0;
+}
+
+.box2 {
+    left: calc(33.33%); 
+}
+
+.box3 {
+    right: 0;
+}
+
+.html{
+    width: 150px;
+    height: 150px;
+    margin-left: 30%;
+}
+
+.css {
+    width: 150px;
+    height: 150px;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+.php {
+    width: 150px;
+    height: 150px;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+.box1text{
+    font-size: 20px;
+    margin-left: 20%;
+    font-family: Consolas;
+}
+
+.box2text{
+    font-size: 20px;
+    margin-left: 25%;
+    font-family: Consolas;
+}
+
+.python {
+    width: 150px;
+    height: 150px;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+.cpp {
+    width: 150px;
+    height: 150px;
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+.box3text{
+    font-size: 20px;
+    margin-left: 30%;
+    font-family: Consolas;
+}
+
+.english{
+    font-size: 30px;
+    margin-left: 35%;
+    margin-top: 10%
+}
+
+.indonesian{
+    font-size: 30px;
+    margin-left: 25%;
+    margin-top: 10%
+}
+
+.arabic{
+    font-size: 30px;
+    margin-left: 35%;
+    margin-top: 10%
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; 
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.section {
+    padding-top: 50px;
+}
+
+.navbar a:hover{
+    color: red;
+}
